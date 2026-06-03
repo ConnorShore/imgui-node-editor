@@ -17,8 +17,8 @@ project "imgui-node-editor"
         "imgui_extra_math.h",
         "imgui_node_editor_api.cpp",
         "imgui_node_editor_internal.h",
-        "imgui_node_editor.inl",
         "imgui_node_editor.h",
+        'imgui_node_editor.cpp',
 
         "crude_json.h",                  -- Required for editor state saving
         "crude_json.cpp"
